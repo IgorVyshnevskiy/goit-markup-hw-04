@@ -238,6 +238,14 @@ p {
 
   margin-right: 24px;
   margin-bottom: 48px;
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.filter-image:hover,
+.filter-image:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .list-container > .filter-image:nth-child(3n) {
@@ -287,9 +295,14 @@ p {
 }
 
 .card > img,
-.card > p {
+.card > .text {
   margin-bottom: 32px;
   display: block;
+}
+
+.card > .left {
+  text-align: left;
+  margin-left: 16px;
 }
 
 .list-container > .filter-btn-list {
@@ -334,6 +347,8 @@ p {
 .btn-secondary:focus {
   background-color: var(--primary-brand);
   color: var(--primary-bg-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .dark-bg {
