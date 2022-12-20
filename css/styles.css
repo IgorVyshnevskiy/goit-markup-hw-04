@@ -352,6 +352,7 @@ p {
 .btn-primary:hover,
 .btn-primary:focus {
   background-color: #404bbf;
+  border: 1px solid #404bbf;
 }
 
 .btn-secondary {
